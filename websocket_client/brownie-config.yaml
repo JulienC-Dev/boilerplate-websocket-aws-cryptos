@@ -1,0 +1,35 @@
+dotenv: .env
+networks:
+  default: arbitrum-mainnet
+  arbitrum-mainnet:
+    weth_address_token: '0x82af49447d8a07e3bd95bd0d56f35241523fbab1'
+    usdc_address_token: '0xff970a61a04b1ca14834a43f5de4533ebddb5cc8'
+    uni_address_token: '0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0'
+    gmx_address_token: '0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a'
+    arb_address_token: '0x912ce59144191c1204e64559fe8253a0e49e6548'
+    uni_pool_address_eth_usdc: '0xc31e54c7a869b9fcbecc14363cf510d1c41fa443'
+    uni_pool_address_eth_uni: '0xc24f7d8e51a64dc1238880bd00bb961d54cbeb29'
+    uni_pool_address_eth_gmx: '0x1aeedd3727a6431b8f070c0afaa81cc74f273882'
+    uni_pool_address_usdc_arb: '0xcda53b1f66614552f834ceef361a8d12a0b8dad8'
+    uni_pool_address_usdc_btc: '0xac70bd92f89e6739b3a08db9b6081a923912f73d'
+    uni_pool_address_usdc_gmx: '0xbed2589fefae17d62a8a4fdac92fa5895cae90d2'
+    uni_swap_address_router: '0xE592427A0AEce92De3Edee1F18E0157C05861564'
+    uni_position_manager_address: '0xC36442b4a4522E871399CD717aBDD847Ab11FE88'
+    uni_uniswap_factory_adress: '0x1F98431c8aD98523631AE4a59f267346ea31F984'
+    uni_swap_event: '0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67'
+
+  ethereum-mainnet:
+    weth_address_token: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2'
+    usdc_address_token: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48'
+    link_address_token: '0x514910771af9ca656af840dff83e8264ecf986ca'
+    uni_pool_address_eth_usdc: '0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8'
+    uni_pool_address_eth_uni: '0x1d42064fc4beb5f8aaf85f4617ae8b3b5b8bd801'
+    uni_pool_address_eth_link: '0xa6cc3c2531fdaa6ae1a3ca84c2855806728693e8'
+    uni_pool_address_usdc_btc: '0x99ac8ca7087fa4a2a1fb6357269965a2014abc35'
+    uni_pool_address_usdc_link: '0xfad57d2039c21811c8f2b5d5b65308aa99d31559'
+    uni_pool_address_usdc_uni: '0xd0fc8ba7e267f2bc56044a7715a489d851dc6d78'
+    uni_swap_address_router: '0xE592427A0AEce92De3Edee1F18E0157C05861564'
+    uni_position_manager_address: '0xC36442b4a4522E871399CD717aBDD847Ab11FE88'
+    uni_factory_adress: '0x1F98431c8aD98523631AE4a59f267346ea31F984'
+    uni_swap_event: '0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67'
+# add more networks as needed
